@@ -1,0 +1,11 @@
+[package]
+name = "llvm-to-sierra"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+inkwell = {git = "https://github.com/TheDan64/inkwell", features = ["llvm18-0"]}
+cairo-lang-sierra = "2.6.4"
+smol_str = "0.2.2"
+salsa = "0.16.1"
+num-bigint = "0.4.6"
